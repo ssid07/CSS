@@ -1,0 +1,47 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button1{
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: black;
+    border: outset ;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.card{
+    width: 600px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 100px auto;
+}
+
+.head{
+    font-size: 11px;
+    text-transform: capitalize;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-align: start;
+    color: #D3D3D3;
+}
+
+.title{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.description{
+    font-size: 15px;
+    max-width: 60ch;
+    color: #808080;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+
