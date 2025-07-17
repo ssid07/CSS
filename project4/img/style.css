@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+.hero{
+     height: 100vh;
+     background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url('../img/wallpaper.jpg');
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+}
+.hero__title {
+  color: #fff;
+  font-size: 3rem;
+  text-decoration: uppercase;
+}
+
+.hero__description {
+  color: #fff;
+  font-size: 1.5rem;
+  max-width: 68ch;
+}
