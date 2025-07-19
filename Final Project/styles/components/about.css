@@ -45,6 +45,109 @@
     font-weight:400;
 }
 
-.about__start{
-    font-size: vars
+.about__stat{
+    font-size: var(--size-3xl);
+    color: var(--clr-light);
+    font-weight: 700;
+    line-height: 1;
 }
+
+.about__stat-span{
+    color:var(--clr-muted);
+}
+
+
+
+/* XS */
+@media (min-width: 475px){
+    .about__title{
+        font-size: var(--size-3xl);
+    }
+    .about__description1{
+        font-size: var(--size-base);
+
+    }
+    .about__description2{
+        font-size: var(--size-base);
+    }
+    .about__btn{
+        font-size: var(--size-base);
+    }
+
+    .about__label{
+        font-size: var(--size-sm);
+
+    }
+
+    .about__start{
+        font-size: var(--size-4xl);
+    }
+}
+
+
+/* SM */
+/* @media (min-width: 640px){} */
+/* MD */
+/* @media (min-width: 768px){} */
+
+
+/* LG */
+@media (min-width: 1024px){
+    .about__description1{
+        max-width:60ch;
+    }
+
+    .about__description2{
+        max-width: 60ch;
+    
+    }
+ .about__container{
+        display:flex;
+        justify-content: space-between;
+}
+}
+
+
+/* XL */
+@media (min-width: 1280px){
+    .about__item1{
+        margin-bottom:0;
+    }
+
+    .about__container{
+        display:flex;
+        justify-content: space-between;
+    }
+    .about__title{
+        font-size: var(--size-xl);
+    }
+    .about__description1{
+        font-size: var(--size-lg);
+
+    }
+    .about__description2{
+        font-size: var(--size-lg);
+    }
+    .about__btn{
+        font-size: var(--size-lg);
+    }
+
+    .about__label{
+        font-size: var(--size-base);
+        text-align: end;
+    }
+
+    .about__start{
+        font-size: var(--size-5xl);
+        text-align: end;
+    }
+    .about__item1 > * + *{
+    margin-top: 2rem;
+}
+    .about__items2 > * + *{
+    margin-top: 3rem;
+    }
+}
+
+/* 2XL */
+/* @media (min-width: 1536px){}  */
