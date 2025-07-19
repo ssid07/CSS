@@ -1,0 +1,84 @@
+.pricing__title{
+    font-size: 0.75rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.pricing{
+    margin-top: 5rem;
+}
+
+.pricing__box{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border-radius: 6px;
+}
+
+.pricing__grid-container > * + *{
+    margin-top: 1rem;
+}
+
+.pricing__box__title{
+    font-size: 1.25rem;
+
+}
+
+.pricing__box__description1{
+    font-size: 0.875rem;
+    margin-bottom:2rem;
+}
+
+.pricing__box__description2{
+    font-size: 0.875rem;
+    color: #ccc;
+    margin-bottom:1rem;
+}
+
+/* XS */
+@media (min-width: 475px){
+    .pricing__title{
+        font-size:0.9rem;
+    }
+    .pricing__box__title{
+        font-size: 1.25rem;
+    }
+    .pricing__box__description1,.pricing__box__description2{
+        font-size: 0.9rem;
+    }
+}
+
+/* LG */
+@media (min-width: 1024px){
+    .pricing__grid-container{
+        display: grid;
+        grid-template-areas: 
+            'css css css react'
+            'next next next js';
+            gap: 2rem;
+    }
+
+.pricing__box{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 2rem;
+}
+    .pricing__box--css{
+        grid-area:css;
+    }
+    .pricing__box--react{
+        grid-area:react;
+    }
+    .pricing__box--next{
+        grid-area:next;
+    }
+     .pricing__box--js{
+        grid-area:js;
+     }    
+     .pricing__box__description1{
+        margin-bottom: 0;
+}
+}

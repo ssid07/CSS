@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libertinus+Math&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sansation:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles/modern-normalize.css">
+<link rel="stylesheet" href="./styles/global.css">
+<link rel="stylesheet" href="./styles/components/header.css">
+<link rel="stylesheet" href="./styles/components/mobile-nav.css">
+<link rel="stylesheet" href="./styles/components/hero.css">
+<link rel=" stylesheet" href="./styles/components/pricing.css">
+<link rel="stylesheet" href="./styles/utils.css">
+<link rel="stylesheet" href="https://cdn.lineicons.com/5.0/lineicons.css" />
+<title>Final Project</title>
+<script src="./src/main.js" type= "module"></script>
+</head>
+<body>
+<header class="header container">
+<div class="header__title-container">
+  <img src="./Public/logo.png"
+  alt="Girl holding a cup of coffee"
+  width="720"
+  height="972"
+  class="header__logo">
+  <span class="header__title">Slaying The Dragon</span>
+</div>
+  <button id ="bars-btn" class="header__bars" aria-label="menu button">
+  <svg 
+    aira-hidden="true"
+    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" >
+  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+</svg>
+</button>
+<nav class="header__menu">
+    <div class="header__social-container">
+      <a  href="https://github.com" 
+      target="_blank" 
+      rel="noreferrer noopener" 
+      class="header__social" 
+      title="github" 
+      aria-label="github link">
+      <i aria-hidden="true" class="lni lni-github"></i>
+      </a>
+      <a  href="https://discord.com" 
+      target="_blank" 
+      rel="noreferrer noopener" 
+      class="header__social" 
+      title="discord" 
+      aria-label="discord link">
+      <i aria-hidden="true" class="lni lni-discord"></i>
+      </a>
+      <a  href="https://youtube.com" 
+      target="_blank" 
+      rel="noreferrer noopener" 
+      class="header__social" 
+      title="youtube" 
+      aria-label="youtube link">
+      <i aria-hidden="true" class="lni lni-youtube"></i>
+      </a>
+    </div>
+  <div class="header__separator"></div>
+  <a href="#"
+      class="header__sign-in-btn">Sign in</a>
+  <a href="#" class="btn
+     header__enter-app-btn">Enter App
+    <svg 
+      aria-hidden="true"
+     xmlns="http://www.w3.org/2000/svg" 
+     fill="none" 
+     viewBox="0 0 24 24" 
+     stroke-width="1.5" 
+     stroke="currentColor" 
+     class="header__enter-app-btn__arrow">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+</svg>
+</a>
+</nav>
+</header>
+
+<div id="mobile-nav" class = "mobile-nav">
+  <button class="mobile-nav__close-btn" id ="close-btn">Close</button>
+  <img src="./Public/logo.png"
+  alt="Girl holding a cup of coffee"
+  width="720"
+  height="972"
+  class="mobile-nav__logo">
+ <div class="mobile-nav__social-container">
+      <a  href="https://github.com" 
+      target="_blank" 
+      rel="noreferrer noopener" 
+      class="mobile-nav__social" 
+      title="github" 
+      aria-label="github link">
+      <i aria-hidden="true" class="lni lni-github"></i>
+      </a>
+      <a  href="https://discord.com" 
+      target="_blank" 
+      rel="noreferrer noopener" 
+      class="mobile-nav__social" 
+      title="discord" 
+      aria-label="discord link">
+      <i aria-hidden="true" class="lni lni-discord"></i>
+      </a>
+      <a  href="https://youtube.com" 
+      target="_blank" 
+      rel="noreferrer noopener" 
+      class="mobile-nav__social" 
+      title="youtube" 
+      aria-label="youtube link">
+      <i aria-hidden="true" class="lni lni-youtube"></i>
+      </a>
+    </div>
+    <div class="mobile-nav__separator"></div>
+  <a href="#"
+      class="mobile-nav__sign-in-btn">Sign in</a>
+  <a href="#" class="btn
+     mobile-nav__enter-app-btn">Enter App
+    <svg 
+      aria-hidden="true"
+     xmlns="http://www.w3.org/2000/svg" 
+     fill="none" 
+     viewBox="0 0 24 24" 
+     stroke-width="1.5" 
+     stroke="currentColor" 
+     class="mobile-nav__enter-app-btn__arrow">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+</svg>
+</a>
+</div>
+<main>
+  <section class="hero container">
+    <img class="hero__img" src="./Public/hero.png" alt="guy sitting on the wheel chair"
+    width="1386"
+    height="1809">
+    <h1 class="hero__title">Become the web developer you were always destined to be.</h1>
+    <p class="hero__description1">Slaying the dragon is about facing your fears,
+       pursuing meaning and transforming into the web developer you were always destined to be
+    </p>
+    <p class="hero__description2">
+        Here you will start your journey, it will not be easy - you will suffer - but you will go all the way. 
+        Slaying The Dragon is a learning platform for the bravest adventurer aspiring to defeat the biggest dragon of all - web development.
+       <strong> I currently offer a CSS course</strong> and a <strong>JS course</strong>, with plans to release more courses soon, including <strong>DSA - ReactJS - NextJS and more.</strong>
+        You have decided upon your purpose - <strong>you will slay the dragon.</strong>
+    </p>
+    <a href="#" class="hero__btn btn">Preview CSS course</a>
+  </section>
+  <section class="pricing container">
+        <h1 class ="pricing__title">Courses</h1>
+        <div class="pricing__grid-container">
+            <div class="pricing__box pricing__box--css">
+                <h2 class="pricing__box__title">CSS</h2>
+                <p class="pricing__box__description1">The Complete Cascading Stylesheet course</p>
+                <p class="pricing__box__description2">CSS (Cascading Style Sheets) is a stylesheet language responsible for the styling of your web page. It is used to express how HTML elements are styled.</p>
+                <button class="btn">Buy Now 35$</button>
+            </div>
+            <div class="pricing__box pricing__box--react">
+                <h2 class="pricing__box__title">ReactJS</h2>
+                <p class="pricing__box__description1">The Complete ReactJS course</p>
+                <p class="pricing__box__description2">ReactJS (A JavaScript library for building user interfaces) is an open-source, declarative and component-based javascript library. It is the most popular Javascript front-end library/framework and is widely used to build single page application and user interfaces.</p>
+                <button class="btn">Buy Now 35$</button>
+            </div>
+            <div class="pricing__box  pricing__box--next">
+                <h2 class="pricing__box__title">NextJS</h2>
+                <p class="pricing__box__description1">The Complete NextJS course</p>
+                <p class="pricing__box__description2">NextJS (The React framework for production) is a React framework with all the features you need for production - hybrid, static & server rendering, TypeScript support, smart bundling, route pre-fetching, and more. No config needed and great developer experience.</p>
+                <button class="btn">Buy Now 35$</button>
+            </div>
+            <div class="pricing__box  pricing__box--js">
+                <h2 class="pricing__box__title">JavaScript</h2>
+                <p class="pricing__box__description1">The Complete JavaScript course</p>
+                <p class="pricing__box__description2">JS (JavaScript) is one of the most widely used programming languages in the world. It allows us to add interactivity to our web pages but can also be used to build web, mobile and desktop apps, real-time networking apps, command-line tools, games and more.</p>
+                <button class="btn">Buy Now 35$</button>
+            </div>
+        
+        </div>
+    </section>
+  
+  <section class="about container section">
+    <h2 class="title">About</h2>
+    <div class="about__container">
+      <div class="about__item1">
+        <h2 class="about__title">slaying The Dragon</h2>
+        <p class="about__description1">I started my YouTube channel back in November of 2022 with little to no expectations and
+            within only a few weeks I was overwhelmed by the love and support I got from new viewers and subscribers.
+            I am infinitely grateful to each and everyone one of you - I am absolutely honored by this community.
+        </p>
+        <p class ="about__description2">Your support and encouragement has been instrumental in helping me to grow as a content creator and 
+            to keep pushing myself to create better and more engaging videos. Whether you've been with me from the beginning or just recently 
+            discovered my channel, please know that I appreciate you and I am committed to continuing to provide you with high-quality content 
+            that you will enjoy. Thank you again for your support, and I can't wait to see what the future holds for our community!
+        </p>
+        <a href="#" target="_blank" rel="noopener noreferrer" class="about__btn btn">Join the discord</a>
+      </div>
+      <div class="about__item2">
+        <div>
+          <h3 class="about__label">Channel total Subscribers</h3>
+          <p class="about__stat">88,000+subs</p>
+        </div>
+        <div>
+          <h3 class="about__label">Channel total Views</h3>
+          <p class="about__stat">3,000,000+Views</p>
+        </div>
+        <div>
+          <h3 class="about__label">Channel total watch hours</h3>
+          <p class="about__stat">4,000+hours</p>
+        </div>
+        <div>
+          <h3 class="about__label">Channel total videos</h3>
+          <p class="about__stat">13+videos</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- <section></section>
+  <section></section>
+  <section></section>
+  <section></section> -->
+
+</main>
+<!-- <footer></footer> -->
+
+</body>
+</html>

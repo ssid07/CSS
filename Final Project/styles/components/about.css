@@ -1,0 +1,50 @@
+.about__items1{
+    margin-bottom:2rem;
+}
+
+
+.about__item1 > * + *{
+    margin-top: 1rem;
+
+}
+
+.about__title{
+    font-size: var(--size-2xl);
+    line-height:1;
+}
+
+
+.about__description1{
+    font-size: var(--size-sm);
+    color: var(--clr-muted);
+    
+}
+
+.about__description2{
+    font-size: var(--size-sm);
+
+}
+
+.about__btn{
+    font-size: var(--size-sm);
+}
+
+.about__btn-discord{
+    margin-left: 0.25rem;
+    vertical-align: middle;
+
+}
+
+.about__items2 > * + *{
+    margin-top: 2rem;
+}
+
+.about__label{
+    color: var(--clr-text);
+    font-size: var(--size-xs);
+    font-weight:400;
+}
+
+.about__start{
+    font-size: vars
+}
