@@ -9,7 +9,8 @@
     text-align:center;
     font-size: var(--size-sm);
     color: var(--clr-muted);
-    margin:1rem 0;
+    margin:1.5rem 0;
+
 }
 
 .testimonial__box{
@@ -71,7 +72,20 @@
 /* MD */
 /* @media (min-width: 768px){} */
 /* LG */
-/* @media (min-width: 1024px) */
+@media (min-width: 1024px){
+    .testimonial__container{
+                display: grid;
+                grid-template-columns:  repeat(auto-fit,minmax(400px,1fr));
+                gap: 1rem;
+
+            }
+            .testimonial__box{
+                margin: 0;
+
+            }
+}
+
+
 /* XL */
 /* @media (min-width: 1280px){} */
 /* 2XL */

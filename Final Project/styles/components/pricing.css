@@ -9,7 +9,7 @@
 }
 
 .pricing__box{
-    background-color: black;
+    background-color: var(--clr-bg);
     color: white;
     padding: 1rem;
     border-radius: 6px;

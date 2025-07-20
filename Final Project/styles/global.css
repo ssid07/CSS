@@ -4,15 +4,19 @@
     box-sizing: border-box;
 } */
 
+body{
+font-family:"Inter", sans-serif;
+}
+
 :root{
     --clr-dark: oklch(13% 0.028 261.692);
     --clr-light:oklch(92.9% 0.013 255.508);
     --clr-text: oklch(70.4% 0.04 256.788);
     --clr-muted:  #697c96;
-  --clr-slate50: oklch(98.4% 0.003 247.858);
-  --clr-slate800:#1e293b;
-  --clr-slate300:#cbd5e1;
-  --clr-bg: #111827;
+    --clr-slate50: oklch(98.4% 0.003 247.858);
+    --clr-slate800:#1e293b;
+    --clr-slate300:#cbd5e1;
+    --clr-bg: #111827;
 
   /* sizes */
 
